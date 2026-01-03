@@ -1,0 +1,70 @@
+body {
+  background-color: rgb(95, 149, 152);
+}
+
+h1 {
+  text-align: center;
+  color: white;
+}
+
+.container-principal {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start; /*isso faz com que os 3 containers tenham seu tamanho aumentado levando em consideração o tamanho da lista*/
+}
+
+.container {
+  width: 30vw;
+  /* background-color: green; */
+  text-align: center;
+  background-color: antiquewhite;
+  padding: 2vh;
+  border-radius: 1vh;
+}
+
+.titulo-lista {
+  text-align: center;
+  margin: 0;
+}
+
+input {
+  margin-bottom: 5vh;
+  margin-right: 5vh;
+}
+
+li input[type="checkbox"] {
+  width: 18px;
+  height: 18px;
+  margin: 0;
+}
+
+.paragrafo-padrao {
+  flex: 1;
+  margin-left: 5vh;
+  text-align: left;
+}
+
+li {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.botao-remover {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 1vh;
+  border: none;
+  background-color: rgb(177, 2, 2);
+  color: white;
+}
+
+.botao-adicionar {
+  width: 15vh;
+  height: 5vh;
+  border-radius: 1vh;
+  border: none;
+  background-color: green;
+  color: white;
+}
